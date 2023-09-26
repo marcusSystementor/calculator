@@ -53,9 +53,7 @@ public class Calculator {
             else if (choice == 3) {
                 System.out.println("Resultatet av multiplikation är " + multiplyNumbers(number1, number2));
             }
-            else {
-                System.out.println("Resultatet av division är " + divideNumbers(number1, number2));
-            }
+       
            
     }
 
@@ -70,9 +68,7 @@ public class Calculator {
         return a - b;
     }
 
-    public int divideNumbers(int a, int b) {
-        return a / b;
-    }
+  
 
     public int multiplyNumbers(int a , int b) {
         return a * b;
